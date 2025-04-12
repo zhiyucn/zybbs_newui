@@ -1,6 +1,6 @@
 module.exports = {
   devServer: {
-    disableHostCheck: true,
+    allowedHosts: ['newui.bbs.zhiyuhub.top'],
     proxy: {
       '/api': {
         target: 'https://bbs.zhiyuhub.top',
