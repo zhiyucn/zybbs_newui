@@ -1,4 +1,4 @@
-const { all } = require("core-js/fn/promise");
+const { all } = require("core-js/features/promise");
 
 module.exports = {
   devServer: {
